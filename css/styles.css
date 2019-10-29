@@ -17,6 +17,7 @@
   width: 90px;
   height: 90px;
   margin-left: 15px;
+  filter: grayscale(100%);
 }
 
 .nav-list {

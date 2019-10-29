@@ -1,33 +1,39 @@
+* {
+  font-family: 'Amatic SC', cursive;
+}
+
 .about-header {
- height: 100px;
- width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .about-header h2 {
+  display: block;
   font-weight: 700;
   color: #008000;
-  position: absolute;
-  top: 200px;
+  background-color: #000000;
+  position: relative;
+  margin: 100px;
   left: 40%;
 }
 
 .container {
   height: 700px;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 150px;
   background-color: #000000;
 }
 
 .container-box {
   height: 650px;
   width: 30%;
-  border: 3px solid black;
+  border: 3px inset #f2f2f2;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .container-box img {
-  height: 500px;
+  height: 350px;
   width: 100%;
 }
 
@@ -37,10 +43,7 @@
 }
 
 .container-box p {
-  padding: 25px;
+  color: #f2f2f2;
+  width: 100%;
 }
 
-.copy p {
-  display: inline;
-  text-align: center;
-}
