@@ -48,12 +48,13 @@
 }
 
 .main-box {
-  color: #f2f2f2;
+  color: #008000;
   height: 200px;
   width: 300px;
   position: absolute;
   top: 155px;
-  left: 10%;
+  left: 55px;
+  
 }
 
 .section {
