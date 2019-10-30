@@ -27,9 +27,14 @@
   margin-top: 40px;
 }
 
+.nav-list a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
 .nav-list a:hover {
-  text-decoration: underline;
-  color: #008000;
+  text-decoration:  bold underline;
+  color: #800080;
 }
 
 .list-item {
@@ -45,26 +50,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-size: 700;
 }
 
 .main-box {
+  text-decoration-style: bold;
   color: #008000;
   height: 200px;
   width: 300px;
   position: absolute;
   top: 155px;
   left: 55px;
-  
 }
 
 .section {
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: #000000;
 }
 
 .section-img, .section-p {
-  height:600px;
+  height:500px;
   width: 50%;
   color: #f2f2f2; 
   float: left;
@@ -90,12 +96,12 @@
 .footer {
   background-color: #000000;
   color: #f2f2f2;
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 
 .footer div {
-  width: 30%;
+  width: 33%;
 }
 
 .footer-input, .social, .copy {
@@ -109,8 +115,8 @@
 }
 
 .footer-input input {
-  height: 50px;
-  width: 400px;
+  height: 30px;
+  width: 100px;
 }
 
 .footer-input button {
@@ -120,8 +126,7 @@
 
 .fab{
   font-size: 2em;
-  color: white;
-  float: right;
+  color: #f2f2f2;
 }
 
 

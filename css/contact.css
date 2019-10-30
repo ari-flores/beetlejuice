@@ -4,32 +4,75 @@
 
  .contact-section {
   background-color:#000000;
-  height: 825px;
+  height: 600px;
   width: 100%;
   margin-top: 90px;
   color: #008000;
-  
+  text-decoration-style: bold;
 }
 
+.contact-header {
+  margin-left:375px;
+}
 
 .contact-box {
   background-color: #000000;
   color: #f2f2f2;
-  height: 750px;
+  height: 550x;
   width: 40%;
   border: 3px solid #f2f2f2;
   float: left;
-  margin-left: 30px;
+  margin-left: 65px;
 }
 .map {
-  left: 45px;
+  left: 35px;
 }
 
 .form {
   right: 85px;
 }
 
- 
+.footer {
+  background-color: #000000;
+  color: #f2f2f2;
+  height: 150px;
+  width: 100%;
+}
+
+.footer div {
+  padding-top: 20px;
+  width: 33%;
+}
+
+.footer-input, .social, .copy {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-input input, .footer-input button {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.footer-input input {
+  height: 30px;
+  width: 100px;
+}
+
+.footer-input button {
+  height: 30px;
+  width: 50px;
+}
+
+.fab{
+  font-size: 2em;
+  color: #f2f2f2;
+}
+
+.fa-instagram {
+  padding-left: 15px;
+}
+
 
 
 
